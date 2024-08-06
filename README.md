@@ -1,23 +1,5 @@
 # Othello
 
-
-## Use:
-Othellow is an interactive  two player strategy board game. This project will be an implementation of this game in Java. The project should run on command and therefore be acessible to everyone. This project is of interest to me as Othello is one of my favorite childhood games that involves both calculations and strategical thinking.
-
-
-## *User Stories*:
-- As a user, I want to be able to place pieces onto the board.
-- As a user, I want to be able to view the entire board.
-- As a user, I want to the game to keep track of who's turn it is.
-- As a user, I want the game to keep track if its over.
-- As a user, I want the game to skip turns when necessary.
-- As a user, I want to be able to know where I can place my pieces.
-- As a user, I want a count of the pieces on the board.
-- As a user, I want to be able to choose which piece I am playing as.
-- As a user, I want to be able to be able to play against a bot.
-- As a user, I want to be able to save a game mid way through.
-- As a user, I want to be able to start a saved game.
-
-## *Further possible improvements:
-
-
+## Motivation
+    Othello, sometimes referred to as Reversi, is a two player board game where the goal of each player is two maximize their number of pieces on the board an minimize their opponents. However, unlike many other classical games like chess and go, the structure of the game makes constant shifts in determining who the winner is going to be as a single move could turn upto 56 disks. On an 8x8 board, that is enough to turn the game around. Given the computational complexity of the game and the uncertainty in what constitutes a good position it is usefull to adapt the minimax algorithm to consider depth and a heuristic evaluation of the state given what we know leads to beter circumstances. More detail on these is provided below.
+    This program was created as the final project for CPSC 210 in the summer of 2024. The course is about software design and thus encourages extensive testing which has been done by Junit for the model.
