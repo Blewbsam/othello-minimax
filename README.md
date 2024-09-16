@@ -7,8 +7,7 @@ This program was created as the final project for CPSC 210 in the summer of 2024
 ## Algorithm
 The design of the algorihtm's structure for this project was taken from <a href="https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf"> Artificial Intelligence: A Modern Approach</a>. The adaptation for considering heuristic evaluations described below is discussed in <a href="https://courses.cs.washington.edu/courses/cse573/04au/Project/mini1/RUSSIA/Final_Paper.pdf"> An analysis of Heuristics in Othello</a>. <br />
 The heuristic evaluation for deciding the value of the state is a linear combination of disk parity, mobility, stability and status. The weights are set thus:
-$$ \begin{equation} Heval = 1*parity + 3*mobility + 3*stability + 100*winner
-\end{equation}$$
+$$  Heval = 1*parity + 3*mobility + 3*stability + 100*winner $$
 Below is the definition of each term.
 - Parity is the difference in number of pieces on the board.
 - Mobility is the difference in number of available moves on the boar.
